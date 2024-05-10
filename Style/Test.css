@@ -1,0 +1,205 @@
+@import url("style.css");
+
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+.account-section {
+    display: flex;
+    align-items: center;
+}
+
+.account-section button {
+    margin-left: 10px;
+}
+
+main {
+    min-width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.map {
+    flex: 3;
+    margin-right: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+.info-cards {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card {
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.Small-Card-Container{
+    display: flex;
+    justify-content: center; /* Center the cards horizontally */
+
+
+}
+
+.Card-Buttons{
+    margin-top: auto;
+}
+.Infocard{
+    background-color: #fff;
+    margin-bottom: 15px;
+    padding: 10px 6px 10px 6px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: row;
+    margin: 5px 3px;
+
+}
+
+.Button-Content {
+    display: flex;
+    align-items: center; /* Vertical centering */
+    justify-content: center; /* Horizontal centering */
+    background-color: #f3eae4;
+    padding: 20px 6px 20px 6px; !important;
+    cursor: pointer;
+
+}
+
+.Button-Content .Card-Title-Min {
+
+    margin-bottom: 0px;!important;
+    margin-top: 0px;!important;
+}
+
+
+.card-icon{
+
+    height: 58px;
+    width: 58px;
+    padding: 5px;
+    border-radius: 5px;
+}
+.card-icon .Icon{
+    height: 55px;
+    width: 55px;
+}
+
+.Card-Info-Container{
+    margin-left: auto;
+    text-align: right;
+
+
+}
+.Card-Main-Container{ /*Used for the main card */
+    margin: auto;
+    text-align: center;
+
+}
+.Card-Info-Shift{
+    transform: translateX(-10px);
+}
+.Card-Title{ /*Larger Title*/
+    margin-top: 5px;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+.Card-Title-Min{/*Smaller Title*/
+    margin-top: 5px;
+    display: block;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    font-weight: 700;
+    letter-spacing: 1.3px;
+}
+
+.Card-SubTitle{
+
+    display: block;
+    font-weight: 500;
+    font-size: 1.05em;
+    padding-bottom: 5px;
+}
+
+.DashContainer{
+
+
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.home-container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+main .InfoContainer{
+    padding-top: 15px;
+    padding-right: 15px;
+    min-width: 20vw;
+}
+
+.Tracker-Selector select{
+    width: 100%;
+    padding: 5px 20px 5px 20px;
+    border-radius: 0px;
+    border: #003EB3 1px;
+    text-align: center;
+}
+.Tracker-Selector select option {
+
+
+}
+
+
+
+.FormSelection {
+    width: 100%;
+    padding: 10px 10px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    margin-bottom: 15px;
+    background-color: var(--dl-color-custom-secondary1);
+}
+.FormSelection select {
+    border:0;
+    background:transparent;
+    border:1px solid #d8d8d8;
+    width:350px;
+    -webkit-appearance: none;
+}
+.FormSelection select option {
+
+    background-color: var(--dl-color-custom-secondary1);
+}
+
+
+.TimeSelector{
+    width: 49.2% !important;}

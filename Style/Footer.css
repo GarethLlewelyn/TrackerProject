@@ -1,0 +1,105 @@
+.footerContainer {
+    color: var(--dl-color-custom-neutral-dark);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 12px;
+    padding-left: var(--dl-space-space-threeunits);
+    padding-right: var(--dl-space-space-threeunits);
+    flex-direction: column;
+    padding-bottom: 12px;
+    justify-content: space-between;
+    background-color: var(--dl-color-custom-neutral-light);
+}
+
+.home-footer {
+    flex: 0 0 auto;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-icon-group1 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.home-nav1 {
+    flex: 0 0 auto;
+    display: flex;
+    margin-top: 0px;
+    align-items: center;
+    flex-direction: row;
+}
+.home-nav121 {
+    margin-bottom: var(--dl-space-space-unit);
+}
+
+.home-nav {
+    margin-left: var(--dl-space-space-unit);
+}
+
+.bodySmall {
+    font-size: 16px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    line-height: 150%;
+}
+.home-container32 {
+    flex: 0 0 auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.home-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: var(--dl-space-space-twounits);
+}
+
+
+@media(max-width: 767px) {
+
+    .home-footer1 {
+        padding-left: var(--dl-space-space-twounits);
+        padding-right: var(--dl-space-space-twounits);
+    }
+
+    .home-nav121 {
+        margin-bottom: var(--dl-space-space-unit);
+    }
+    .home-icon-group1{
+        margin-bottom: 10px;
+    }
+
+    .home-nav1 {
+        margin-bottom: 10px;
+    }
+    .home-container32 {
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+
+    }
+
+
+@media(max-width: 479px) {
+
+
+    .home-footer1 {
+        padding: var(--dl-space-space-unit);
+    }
+    .home-container32 {
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
